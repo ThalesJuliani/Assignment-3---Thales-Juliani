@@ -1,0 +1,19 @@
+body{
+  background-color: blueviolet;
+  display: block;
+  margin: 10px
+
+}
+
+img{
+  border-radius: 10%;
+  border: black;
+}
+
+.germany{
+  background-color: rgb(31, 185, 129);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: antiquewhite;
+  display: block;
+
+}
