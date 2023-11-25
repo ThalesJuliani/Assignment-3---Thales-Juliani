@@ -32,8 +32,7 @@
 //(make sure not to show images with in the list section otherwise the page may become too slow to load )
 // ==================================================
 
-//Constructor to receive info from imput
-
+//Constructor to receive info from imput - ok
 
 //global variable
 let continentArr = [];
@@ -88,17 +87,6 @@ async function getDataRegion(){
 } getDataRegion()
 
 console.log(" final region");
-
-
-
-
-
-
-
-
-
-
-
 
 
 
