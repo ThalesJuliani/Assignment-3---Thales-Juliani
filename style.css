@@ -1,6 +1,9 @@
 body{
-  background-color: blueviolet;
-  display: block;
+  background-color: rgb(219, 205, 149);
+  display: grid;
+  grid-template-columns: 1fr ;
+  /* flex: wrap; */
+  gap: 0.5rem;
   margin: 10px
 
 }
@@ -10,10 +13,12 @@ img{
   border: black;
 }
 
-.germany{
+#block{
   background-color: rgb(31, 185, 129);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: antiquewhite;
   display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
 
 }
