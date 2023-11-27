@@ -1,24 +1,41 @@
-body{
+body {
   background-color: rgb(219, 205, 149);
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
   /* flex: wrap; */
   gap: 0.5rem;
   margin: 10px
-
 }
 
-img{
+form{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+
+#mybtnScroll{
+  background-color: rgb(149, 255, 0);
+}
+
+table{
+  display: block;
+ 
+}
+
+
+img {
   border-radius: 10%;
   border: black;
 }
 
-#block{
+#block {
   background-color: rgb(31, 185, 129);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: antiquewhite;
   display: block;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
 
 }
+
